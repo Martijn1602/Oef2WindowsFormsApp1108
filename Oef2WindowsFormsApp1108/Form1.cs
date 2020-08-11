@@ -42,7 +42,7 @@ namespace Oef2WindowsFormsApp1108
             else if (rbLux.Checked)
                 provincie = "Luxemburg";
             {
-                //W-Vl
+                
                 if (rbMan.Checked)
                 {
                     MessageBox.Show(textBox1.Text + " " + textBox2.Text + Environment.NewLine + textBox3.Text + Environment.NewLine + textBox4.Text + Environment.NewLine + numericUpDown1.Value + Environment.NewLine + "Man" + Environment.NewLine + provincie, "Overzicht");
